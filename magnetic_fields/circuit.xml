@@ -1,0 +1,55 @@
+<circuit>
+    <wire>
+        <shape type='bezier'>
+            <cp x='0.0' y='-1.0'/>
+            <cp x='0.0' y='1.0'/>
+        </shape>
+        <value type='current'>1.000</value>
+    </wire>
+    <wire>
+        <shape type='bezier'>
+            <cp x='0.0' y='1.0'/>
+            <cp x='1.0' y='1.0'/>
+        </shape>
+        <value type='current'>0.3333</value>
+    </wire>
+    <wire>
+        <shape type='bezier'>
+            <cp x='1.0' y='1.0'/>
+            <cp x='1.0' y='-1.0'/>
+        </shape>
+        <value type='current'>0.3333</value>
+    </wire>
+    <wire>
+    <shape type='bezier'>
+        <cp x='1.0' y='-1.0'/>
+        <cp x='0.0' y='-1.0'/>
+    </shape>
+        <value type='current'>0.3333</value>
+    </wire>
+
+    <!-- left loop -->
+    <wire>
+        <shape type='bezier'>
+            <cp x='0.0' y='1.0'/>
+            <cp x='-1.0' y='1.0'/>
+        </shape>
+        <value type='current'>0.6666</value>
+    </wire>
+    <wire>
+        <shape type='bezier'>
+            <cp x='-1.0' y='1.0'/>
+            <cp x='-1.0' y='-1.0'/>
+        </shape>
+        <value type='current'>0.6666</value>
+    </wire>
+    <wire>
+        <shape type='bezier'>
+            <cp x='-1.0' y='-1.0'/>
+            <cp x='0.0' y='-1.0'/>
+        </shape>
+        <value type='current'>0.6666</value>
+    </wire>
+</circuit>
+
+
