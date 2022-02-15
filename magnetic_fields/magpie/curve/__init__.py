@@ -1,0 +1,1 @@
+from magpie.curve.decoder import decodeCurve

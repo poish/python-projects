@@ -13,3 +13,11 @@ class Vector:
     
     def initFromNativeArray(self, coords):
         self.coords = coords
+
+    def x(self):
+        return self.coords[0]
+
+    def y(self):
+        return self.coords[1]    
+    def __repr__(self):
+        return f"({self.coords[0]}, {self.coords[1]})"

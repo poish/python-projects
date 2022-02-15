@@ -1,54 +1,54 @@
 <circuit>
     <wire>
-        <shape type='bezier'>
+        <curve type='line'>
             <cp x='0.0' y='-1.0'/>
             <cp x='0.0' y='1.0'/>
-        </shape>
-        <value type='current'>1.000</value>
+        </curve>
+        <scalar type='current' value='1.000'/>
     </wire>
     <wire>
-        <shape type='bezier'>
+        <curve type='line'>
             <cp x='0.0' y='1.0'/>
             <cp x='1.0' y='1.0'/>
-        </shape>
-        <value type='current'>0.3333</value>
+        </curve>
+        <scalar type='current' value='0.333'/>
     </wire>
     <wire>
-        <shape type='bezier'>
+        <curve type='line'>
             <cp x='1.0' y='1.0'/>
             <cp x='1.0' y='-1.0'/>
-        </shape>
-        <value type='current'>0.3333</value>
+        </curve>
+        <scalar type='current' value='0.333'/>
     </wire>
     <wire>
-    <shape type='bezier'>
+    <curve type='line'>
         <cp x='1.0' y='-1.0'/>
         <cp x='0.0' y='-1.0'/>
-    </shape>
-        <value type='current'>0.3333</value>
+    </curve>
+        <scalar type='current' value='0.333'/>
     </wire>
 
     <!-- left loop -->
     <wire>
-        <shape type='bezier'>
+        <curve type='line'>
             <cp x='0.0' y='1.0'/>
             <cp x='-1.0' y='1.0'/>
-        </shape>
-        <value type='current'>0.6666</value>
+        </curve>
+        <scalar type='current' value='0.666'/>
     </wire>
     <wire>
-        <shape type='bezier'>
+        <curve type='line'>
             <cp x='-1.0' y='1.0'/>
             <cp x='-1.0' y='-1.0'/>
-        </shape>
-        <value type='current'>0.6666</value>
+        </curve>
+        <scalar type='current' value='0.666'/>
     </wire>
     <wire>
-        <shape type='bezier'>
+        <curve type='line'>
             <cp x='-1.0' y='-1.0'/>
             <cp x='0.0' y='-1.0'/>
-        </shape>
-        <value type='current'>0.6666</value>
+        </curve>
+        <scalar type='current' value='0.666'/>
     </wire>
 </circuit>
 

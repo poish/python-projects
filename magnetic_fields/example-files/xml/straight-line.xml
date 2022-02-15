@@ -1,0 +1,7 @@
+<circuit>
+    <wire curve='line'>
+        <scalar type='current' value='1'/>
+        <cp x='0.0' y='-10.0'/>
+        <cp x='0.0' y='10.0'/>
+    </wire>
+</circuit>
