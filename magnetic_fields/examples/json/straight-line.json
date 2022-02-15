@@ -1,0 +1,14 @@
+{
+    "type": "circuit",
+    "description": "A single, straight, 20m wire",
+    "wires": [
+        
+        {   "type": "line",
+            "current": 1,
+            "points": [
+                { "x": 0.0, "y": -10.0 },
+                { "x": 0.0, "y": 10.0 }
+            ]
+        }
+    ]
+}
