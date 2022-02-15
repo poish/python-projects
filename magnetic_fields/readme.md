@@ -2,6 +2,7 @@
 
 This python scripts visualizes magnetic field about arbitrary steady state circuits.
 
-- Read XML and JSON files
-- Turn the read data into data structures
-- Present it using matplotlib
+- Parse XML and JSON files describing steady state circuits
+- Create objects describing the circuit
+- Calculate magnetic fields around the circuit
+- Plot them using matplotlib
