@@ -1,1 +1,1 @@
-# Circuit scope datatypes
+# Circuit scope datatypes and decoders
